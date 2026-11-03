@@ -1,17 +1,36 @@
 # Hi, I'm Ayan
 
-### AI/ML & Full-Stack Developer
+### Full-Stack Developer & AI/ML Engineer
 
-I build reproducible machine-learning systems, reliable backend APIs and modern web applications. My projects combine model evaluation and data engineering with practical interfaces, databases, automated tests and deployment-focused architecture.
+I build production-minded web platforms, backend APIs and machine-learning systems. My work focuses on reliable product flows, multi-tenant architecture, data-intensive applications and practical AI features backed by testing, CI and clear technical documentation.
 
-## What I work with
+## Flagship full-stack systems
 
-- **AI and machine learning:** classification, information retrieval, computer vision, anomaly detection and forecasting
-- **Backend development:** APIs, authentication, validation, relational databases and booking workflows
-- **Frontend development:** responsive React and Next.js applications with TypeScript
-- **Engineering quality:** reproducible experiments, automated tests, CI workflows and documented limitations
+### [SupportOps — Customer Support Operations Platform](https://github.com/ayanirfan099/support-ops-platform)
 
-## Featured AI/ML projects
+Multi-tenant support platform with ticket workflows, evidence retrieval, ML-assisted triage, human review and operational analytics.
+
+**Stack:** Next.js, TypeScript, FastAPI, PostgreSQL, retrieval and machine learning
+
+### [TeamFlow — Real-Time Collaboration Platform](https://github.com/ayanirfan099/teamflow-collaboration)
+
+Multi-tenant project-management system with role-based access, Kanban workflows, authenticated real-time collaboration and audit trails.
+
+**Stack:** Next.js, NestJS, TypeScript, PostgreSQL, WebSockets
+
+### [CommerceOps — Commerce and Inventory Platform](https://github.com/ayanirfan099/commerce-operations-platform)
+
+Full-stack commerce system with server-authoritative checkout, transactional inventory, idempotent payment handling, webhooks and an operations dashboard.
+
+**Stack:** Next.js, TypeScript, PostgreSQL, Prisma, Stripe, Playwright
+
+### [ForecastOps — Demand and Inventory Planner](https://github.com/ayanirfan099/demand-inventory-planner)
+
+Forecasting platform with validated data ingestion, asynchronous jobs, model evaluation and inventory decision support.
+
+**Stack:** Next.js, TypeScript, FastAPI, PostgreSQL, Python, forecasting models
+
+## Selected AI/ML work
 
 ### [Paper Evidence Retrieval](https://github.com/ayanirfan099/paper-evidence-retrieval)
 
@@ -21,47 +40,29 @@ Page-aware PDF retrieval using BM25, FAISS and reciprocal-rank fusion, with sour
 
 NumPy implementations of regression, KNN, K-means and PCA, verified against scikit-learn reference implementations.
 
-### [CNN and Transfer-Learning Study](https://github.com/ayanirfan099/cnn-transfer-learning-study)
+## Core capabilities
 
-Controlled CIFAR-10 experiments comparing a custom CNN with ResNet18 transfer learning, including Grad-CAM analysis.
-
-### [Telecom Churn Prediction](https://github.com/ayanirfan099/telco-churn-prediction)
-
-Leakage-resistant classification with validation-selected thresholds, held-out evaluation and explainability.
-
-## Featured full-stack and web projects
-
-### [Vienna Cuts Booking Platform](https://github.com/ayanirfan099/vienna-cuts-booking-platform)
-
-Bilingual full-stack appointment-booking demonstration with availability rules, conflict prevention, owner workflows and automated tests.
-
-### [Vienna Cuts AI Receptionist](https://github.com/ayanirfan099/vienna-cuts-ai-receptionist)
-
-React and TypeScript booking application with optional Supabase, Stripe, Resend and Vapi integrations, plus an owner dashboard.
-
-### [Vienna Business Platform](https://github.com/ayanirfan099/vienna-business-platform)
-
-Next.js and Supabase foundation for multi-business websites, service catalogues and conflict-safe appointment booking.
-
-### [BURGERISTA Restaurant Concept](https://github.com/ayanirfan099/burgerista-restaurant-concept)
-
-Responsive restaurant web experience with interactive menus, accessible dialogs, animation, Vitest and Playwright coverage.
+- **Full-stack product engineering:** responsive interfaces, authenticated workflows, role-based access and multi-tenant systems
+- **Backend and data:** REST APIs, validation, PostgreSQL, Prisma, Supabase, background jobs and transactional workflows
+- **AI and machine learning:** classification, retrieval, computer vision, anomaly detection, forecasting and model evaluation
+- **Engineering quality:** strict TypeScript, automated tests, CI pipelines, reproducible experiments and documented limitations
 
 ## Technical stack
 
 | Area | Technologies |
 | --- | --- |
-| AI/ML | Python, NumPy, pandas, scikit-learn, PyTorch, FAISS, BM25 |
-| Backend | FastAPI, Node.js, Next.js, PostgreSQL, SQLite, Supabase, Prisma |
 | Frontend | React, Next.js, TypeScript, Tailwind CSS, Vite |
+| Backend | Node.js, NestJS, FastAPI, REST APIs, WebSockets |
+| Data | PostgreSQL, SQLite, Prisma, Supabase, pandas |
+| AI/ML | Python, NumPy, scikit-learn, PyTorch, FAISS, BM25 |
 | Testing | pytest, unittest, Vitest, Playwright |
-| Engineering | Git, GitHub Actions, REST APIs, reproducible experiments |
+| Engineering | Git, GitHub Actions, Docker, reproducible workflows |
 
-## Engineering priorities
+## Engineering principles
 
-- Honest evaluation with meaningful baselines
-- Leakage-aware data and model pipelines
-- Clear limitations, failure cases and dataset provenance
-- Accessible, responsive and tested user interfaces
-- Secure handling of secrets and server-side integrations
-- Maintainable code with automated verification
+- Build complete, understandable product flows—not isolated demos
+- Keep pricing, authorization and data validation server-authoritative
+- Evaluate models honestly with meaningful baselines and held-out data
+- Design accessible, responsive and tested user interfaces
+- Document limitations, security boundaries and production gaps
+- Prefer maintainable architecture and automated verification
